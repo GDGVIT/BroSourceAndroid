@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:background="#eceff1">
+
+
+    <!--
+               Happy Birthday thalaivaa Illaya Thalapathy Vijay da..
+        Your proud fan... This is dedicated to you.
+ -->
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_weight="80">
+
+</LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONNECT WITH"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:layout_weight="5"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_gravity="center_horizontal"
+    >
+    <Button
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:background="@color/facebook"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:layout_weight="10"
+        >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="95dp"
+            android:layout_height="60dp"
+            android:background="@color/google"/>
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/googleplus"
+                android:layout_gravity="center_horizontal"/>
+        </FrameLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+    <Button
+        android:layout_width="95dp"
+        android:layout_height="60dp"
+        android:background="@color/linkedin"/>
+        </LinearLayout>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="30dp"
+    android:paddingRight="35dp">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:textSize="16dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="10dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+            android:layout_gravity="center_horizontal"
+            />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"/>
+    </FrameLayout>
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email / Username"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangle"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Password"
+            android:paddingLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:text="SIGN IN"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:background="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+</LinearLayout>
