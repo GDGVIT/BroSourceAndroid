@@ -53,7 +53,7 @@
                 android:paddingRight="15dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:background="@drawable/rounded_textview"
+                android:background="@drawable/rounded_view"
                 android:textSize="14sp"
                 />
                 <TextView
@@ -66,7 +66,7 @@
                     android:paddingRight="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:background="@drawable/rounded_textview"
+                    android:background="@drawable/rounded_view"
                     android:textSize="14sp"
                     />
 
@@ -87,7 +87,7 @@
                     android:paddingRight="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:background="@drawable/rounded_textview"
+                    android:background="@drawable/rounded_view"
                     android:textSize="14sp"
                     />
                 <TextView
@@ -100,7 +100,7 @@
                     android:paddingRight="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:background="@drawable/rounded_textview"
+                    android:background="@drawable/rounded_view"
                     android:textSize="14sp"
                     />
                 <TextView
@@ -113,7 +113,7 @@
                     android:paddingRight="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:background="@drawable/rounded_textview"
+                    android:background="@drawable/rounded_view"
                     android:textSize="14sp"
                     />   <TextView
                 android:layout_marginTop="10dp"
@@ -125,7 +125,7 @@
                 android:paddingRight="15dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:background="@drawable/rounded_textview"
+                android:background="@drawable/rounded_view"
                 android:textSize="14sp"
                 />
                 <TextView
@@ -138,7 +138,7 @@
                     android:paddingRight="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:background="@drawable/rounded_textview"
+                    android:background="@drawable/rounded_view"
                     android:textSize="14sp"
                     />
 
@@ -158,7 +158,7 @@
                     android:paddingRight="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:background="@drawable/rounded_textview"
+                    android:background="@drawable/rounded_view"
                     android:textSize="14sp"
                     />
                 <TextView
@@ -171,7 +171,7 @@
                     android:paddingRight="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:background="@drawable/rounded_textview"
+                    android:background="@drawable/rounded_view"
                     android:textSize="14sp"
                     />
                 <TextView
@@ -184,7 +184,7 @@
                     android:paddingRight="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:background="@drawable/rounded_textview"
+                    android:background="@drawable/rounded_view"
                     android:textSize="14sp"
                     />
 
@@ -198,7 +198,7 @@
                 android:paddingRight="15dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:background="@drawable/rounded_textview"
+                android:background="@drawable/rounded_view"
                 android:textSize="14sp"
                 />
                 <TextView
@@ -211,7 +211,7 @@
                     android:paddingRight="15dp"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:background="@drawable/rounded_textview"
+                    android:background="@drawable/rounded_view"
                     android:textSize="14sp"
                     />
 
