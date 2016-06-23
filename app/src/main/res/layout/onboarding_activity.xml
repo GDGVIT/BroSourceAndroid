@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#f00000"
+    android:layout_height="match_parent">
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:id="@+id/viewPager"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        >
+
+
+    </android.support.v4.view.ViewPager>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="-30dp"
+        android:src="@drawable/ic_frame"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="165dp"
+            android:src="@drawable/white_indicator"
+            android:id="@+id/white_indicator1" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="9dp"
+            android:src="@drawable/white_indicator"
+            android:id="@+id/white_indicator2" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="450dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/white_indicator"
+            android:id="@+id/white_indicator3" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="horizontal"
+        >
+
+
+
+
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="450dp"
+             android:layout_marginLeft="165dp"
+             android:src="@drawable/green_indicator"
+             android:id="@+id/green_indicator1" />
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="450dp"
+             android:layout_marginLeft="9dp"
+             android:src="@drawable/green_indicator"
+             android:id="@+id/green_indicator2" />
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="450dp"
+             android:layout_marginLeft="10dp"
+             android:src="@drawable/green_indicator"
+             android:id="@+id/green_indicator3" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:paddingTop="490dp"
+       android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="150dp"
+            android:background="@drawable/signinbutton"
+            android:layout_height="55dp"
+            android:textColor="#7f807f"
+            android:text="Sign In"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:background="@drawable/signupbutton"
+            android:layout_marginLeft="10dp"
+            android:layout_height="55dp"
+            android:textColor="@color/white"
+            android:text="Sign Up"
+            />
+    </LinearLayout>
+
+
+
+
+</FrameLayout>
