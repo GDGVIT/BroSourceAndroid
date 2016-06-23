@@ -3,13 +3,9 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="100"
-    android:background="#eceff1">
+    android:background="@color/background">
 
 
-    <!--
-               Happy Birthday thalaivaa Illaya Thalapathy Vijay da..
-        Your proud fan... This is dedicated to you.
- -->
 
 <LinearLayout
     android:layout_width="wrap_content"
