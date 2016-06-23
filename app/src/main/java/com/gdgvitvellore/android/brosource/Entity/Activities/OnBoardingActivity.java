@@ -1,4 +1,4 @@
-package com.gdgvitvellore.android.brosource.WalkThroughScreen;
+package com.gdgvitvellore.android.brosource.Entity.Activities;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -8,12 +8,13 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.gdgvitvellore.android.brosource.R;
+import com.gdgvitvellore.android.brosource.Entity.Fragments.Onboarding.ViewPagerAdapter;
 
 /**
  * Created by Shuvam Ghosh on 6/23/2016.
  */
 
-public class OnBoarding extends AppCompatActivity {
+public class OnBoardingActivity extends AppCompatActivity {
 
 
     ViewPager viewPager;

@@ -1,7 +1,11 @@
-package com.gdgvitvellore.android.brosource.WalkThroughScreen;
+package com.gdgvitvellore.android.brosource.Entity.Fragments.Onboarding;
 
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.gdgvitvellore.android.brosource.Entity.Fragments.Onboarding.OnBoardingFragment1;
+import com.gdgvitvellore.android.brosource.Entity.Fragments.Onboarding.OnBoardingFragment2;
+import com.gdgvitvellore.android.brosource.Entity.Fragments.Onboarding.OnBoardingFragment3;
 
 /**
  * Created by Shuvam Ghosh on 6/23/2016.

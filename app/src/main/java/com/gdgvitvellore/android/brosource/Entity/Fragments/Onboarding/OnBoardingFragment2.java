@@ -1,4 +1,4 @@
-package com.gdgvitvellore.android.brosource.WalkThroughScreen;
+package com.gdgvitvellore.android.brosource.Entity.Fragments.Onboarding;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -13,13 +13,13 @@ import com.gdgvitvellore.android.brosource.R;
  * Created by Shuvam Ghosh on 6/23/2016.
  */
 
-public class OnBoardingFragment1 extends Fragment {
+public class OnBoardingFragment2 extends Fragment {
 
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View rootView;
-        rootView=inflater.inflate(R.layout.onboarding_screen1,container,false);
+        rootView=inflater.inflate(R.layout.onboarding_screen2,container,false);
         return rootView;
     }
 

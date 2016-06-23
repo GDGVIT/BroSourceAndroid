@@ -1,4 +1,4 @@
-package com.gdgvitvellore.android.brosource;
+package com.gdgvitvellore.android.brosource.Entity.Customs;
 
 /**
  * Created by VSRK on 6/22/2016.
