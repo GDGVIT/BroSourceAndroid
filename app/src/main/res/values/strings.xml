@@ -3,4 +3,11 @@
     <string name="short_description">An enthusiastic Android Devoloper and MSD fan</string>
     <string name="long_description">I am a Software Engineer and a devoloper. I have good experience Android App Devolopment and Web Applications Devolopment. I am intrested in backend and building up the system design and architecture. I am looking forward for an Internship.</string>
     <string name="sample_review">A very neat service.This person has more knowledge on ANDROID.He is very experienced too.Can finish any work in 24hrs.Very gifted and talented person.His parents should be very proud of him.God bless him..!!</string>
+    <string name="login">LOGIN</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="title_activity_messages">MessagesActivity</string>
+    <string name="search">Search</string>
+    <string name="compose">Compose</string>
+    <string name="action_settings">Settings</string>
+
 </resources>

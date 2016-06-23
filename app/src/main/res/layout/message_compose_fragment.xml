@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_default"
+        android:fitsSystemWindows="true" />
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:padding="10dp"
+        android:layout_weight="0.12">
+        <com.gdgvitvellore.android.brosource.RoundedImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/profilepic"
+            android:scaleType="center"
+            android:id="@+id/profile_image"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/profile_image"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:text="Selena Gomez"
+                android:id="@+id/name"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="email"
+                android:id="@+id/email"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.05"
+    android:background="@color/grey"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/attachments"
+        android:layout_toLeftOf="@+id/attachments_button"
+        android:textColor="@color/text_color"
+        android:text="No Attachments"
+        android:layout_marginLeft="15dp"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        />
+    <ImageButton
+        android:layout_alignParentEnd="true"
+        android:id="@+id/attachments_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@color/grey"
+        android:src="@drawable/ic_attachment_black_24px"
+        android:padding="10dp"
+        />
+</RelativeLayout>
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.84"
+    android:background="@color/white"
+    android:padding="15dp"/>
+</LinearLayout>

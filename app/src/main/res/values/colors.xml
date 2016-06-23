@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#0288d1</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#448ccb</color>
+    <color name="colorPrimaryDark">#3d7eb6</color>
+    <color name="colorAccent">#43a047</color>
+
     <color name="black">#000</color>
     <color name="white">#fff</color>
     <color name="facebook">#3b5998</color>
@@ -10,5 +11,7 @@
     <color name="linkedin">#0077B5</color>
     <color name="background">#eceff1</color>
     <color name="green">#43a047</color>
+    <color name="grey">#EFEFEF</color>
+    <color name="text_color">#616161</color>
 
 </resources>

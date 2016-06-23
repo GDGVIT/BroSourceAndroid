@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 import com.gdgvitvellore.android.brosource.R;
@@ -24,6 +25,7 @@ public class OnBoarding extends AppCompatActivity {
     ImageView iv1g;
     ImageView iv2g;
     ImageView iv3g;
+    Button login, signUp;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,7 +45,15 @@ public class OnBoarding extends AppCompatActivity {
         iv2g.setVisibility(View.INVISIBLE);
         iv3g.setVisibility(View.INVISIBLE);
 
+        login = (Button) findViewById(R.id.login_button);
+        signUp = (Button) findViewById(R.id.sign_up_button);
 
+        login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
         viewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
