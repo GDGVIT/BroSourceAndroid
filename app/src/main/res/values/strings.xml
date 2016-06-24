@@ -9,5 +9,11 @@
     <string name="search">Search</string>
     <string name="compose">Compose</string>
     <string name="action_settings">Settings</string>
+    <string name="download_attachment">Attachments</string>
+    <string name="reply">Reply</string>
+    <string name="test_name">Selena Gomez</string>
+    <string name="test_message">Message test</string>
+    <string name="test_email">selena.gomez@gmail.com</string>
+    <string name="type_direct">Direct Message</string>
 
 </resources>
