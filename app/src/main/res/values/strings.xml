@@ -15,5 +15,13 @@
     <string name="test_message">Message test</string>
     <string name="test_email">selena.gomez@gmail.com</string>
     <string name="type_direct">Direct Message</string>
+    <string name="loginText">login</string>
+    <string name="viewPagerScreen1">Build the future</string>
+    <string name="viewPagerScreen1Heading">Build the future</string>
+    <string name="viewPagerScreen1Text">Get your professional career started with BroSource and pave the way for your better future</string>
+    <string name="viewPagerScreen2Heading">Find Experts</string>
+    <string name="viewPagerScreen2Text">Handover your project to experts of each domain and bring out the best</string>
+    <string name="viewPagerScreen3Heading">Collaborate</string>
+    <string name="viewPagerScreen3Text">Connect to people, work together and expand your ideas</string>
 
 </resources>

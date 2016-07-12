@@ -7,12 +7,10 @@
     android:layout_height="match_parent">
 
     <ImageView
-
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="-10dp"
         android:src="@drawable/ic_person1"
-
         />
 
     <TextView
@@ -20,7 +18,7 @@
         android:layout_height="wrap_content"
         android:paddingTop="50dp"
         android:textStyle="bold"
-        android:text="Build the future"
+        android:text="@string/viewPagerScreen1Heading"
         android:textSize="20sp"
         android:textColor="@android:color/white"
         />
@@ -29,7 +27,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
        android:paddingTop="20dp"
-        android:text="Get your professional career started with BroSource and pave the way for your better future "
+        android:text="@string/viewPagerScreen1Text"
         android:textSize="15sp"
         android:textAlignment="center"
         android:textColor="@android:color/white"

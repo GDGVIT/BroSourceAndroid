@@ -22,6 +22,4 @@ public class OnBoardingFragment1 extends Fragment {
         rootView=inflater.inflate(R.layout.onboarding_screen1,container,false);
         return rootView;
     }
-
-
 }

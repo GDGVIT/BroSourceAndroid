@@ -13,5 +13,6 @@
     <color name="green">#43a047</color>
     <color name="grey">#EFEFEF</color>
     <color name="text_color">#616161</color>
+    <color name="loginButtonColor">#7f807f</color>
 
 </resources>
